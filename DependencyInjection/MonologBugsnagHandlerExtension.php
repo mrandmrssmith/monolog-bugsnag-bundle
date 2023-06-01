@@ -1,6 +1,6 @@
 <?php
 
-namespace MrandMrsSmith\MonologBugsnagBundle\DependencyInjection;
+namespace MrAndMrsSmith\MonologBugsnagBundle\DependencyInjection;
 
 use Symfony\Component\Config\FileLocator;
 use Symfony\Component\DependencyInjection\ContainerBuilder;

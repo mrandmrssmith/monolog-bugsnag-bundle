@@ -1,6 +1,6 @@
 <?php
 
-namespace MrandMrsSmith\MonologBugsnagBundle\Handler;
+namespace MrAndMrsSmith\MonologBugsnagBundle\Handler;
 
 use Bugsnag\Client;
 use Bugsnag\Report;
