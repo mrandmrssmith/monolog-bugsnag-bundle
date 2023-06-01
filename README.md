@@ -1,2 +1,8 @@
-# monolog-bugsnaghandler
-Monolog 3.0 BugsnagHandler
+# Monolog Bugsnag Bundle
+A Bugsnag Handler for Symfony Monolog
+
+## Installation
+
+## Usage
+
+## 
