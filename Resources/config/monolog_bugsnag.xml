@@ -6,7 +6,10 @@
 
     <services>
 
-        <service id="monolog.bugsnag_handler" class="MrAndMrsSmith\MonologBugsnagHandlerBundle\Handler\BugsnagHandler" />
+        <service id="monolog.bugsnag_handler" class="MrAndMrsSmith\MonologBugsnagBundle\Handler\BugsnagHandler" autowire="true">
+            <argument type="service" id="bugsnag" />
+            <argument>300</argument>
+        </service>
 
     </services>
 </container>
