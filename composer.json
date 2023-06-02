@@ -1,6 +1,9 @@
 {
     "name": "mrandmrssmith/monolog-bugsnaghandler",
     "type": "symfony-bundle",
+    "description": "Bugsnag integration for Monolog and Symfony.",
+    "keywords": ["bugsnag", "exceptions", "errors", "logging", "tracking", "symfony", "monolog"],
+    "homepage": "https://github.com/mrandmrssmith/monolog-bugsnag-bundle",
     "license": "MIT",
     "autoload": {
         "psr-4": {
@@ -14,13 +17,24 @@
         {
             "name": "Guillaume Vermeersch",
             "email": "guillaume.vermeersch@smithhotels.com"
+        },
+        {
+            "name": "Jack Wilson",
+            "email": "jack.wilson@smithhotels.com"
         }
     ],
+    "config": {
+        "sort-packages": true
+    },
     "minimum-stability": "stable",
     "require": {
         "php": ">=8.1",
         "psr/log": "^2.0 || ^3.0",
         "symfony/monolog-bundle": "^3.0",
         "bugsnag/bugsnag-symfony": "^1.0"
+    }
+    ,
+    "require-dev": {
+        "roave/security-advisories": "dev-latest"
     }
 }

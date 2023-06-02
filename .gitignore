@@ -1,2 +1,12 @@
+# Composer
 /vendor/
 /composer.lock
+
+#MacOS
+*.DS_Store
+
+#PHPStorm
+/.idea
+
+#Symfony
+/var/
