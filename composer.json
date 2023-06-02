@@ -1,5 +1,5 @@
 {
-    "name": "mrandmrssmith/monolog-bugsnaghandler",
+    "name": "mrandmrssmith/monolog-bugsnag-bundle",
     "type": "symfony-bundle",
     "description": "Bugsnag integration for Monolog and Symfony.",
     "keywords": ["bugsnag", "exceptions", "errors", "logging", "tracking", "symfony", "monolog"],
