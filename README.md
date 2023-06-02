@@ -15,7 +15,7 @@ It is compatible and tested with;
 1. If you haven't already, create a [Bugsnag](https://www.bugsnag.com) account.
 2. Add this package to your project.
     ```shell
-    composer require mrandmrssmith/monolog-bugsnaghandler
+    composer require mrandmrssmith/monolog-bugsnag-bundle
     ```
 3. Enable the bundle
     ```php
