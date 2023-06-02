@@ -1,0 +1,26 @@
+{
+    "name": "mrandmrssmith/monolog-bugsnaghandler",
+    "type": "symfony-bundle",
+    "license": "MIT",
+    "autoload": {
+        "psr-4": {
+            "MrAndMrsSmith\\MonologBugsnagBundle\\": ""
+        },
+        "exclude-from-classmap": [
+            "/Tests/"
+        ]
+    },
+    "authors": [
+        {
+            "name": "Guillaume Vermeersch",
+            "email": "guillaume.vermeersch@smithhotels.com"
+        }
+    ],
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=8.1",
+        "psr/log": "^2.0 || ^3.0",
+        "symfony/monolog-bundle": "^3.0",
+        "bugsnag/bugsnag-symfony": "^1.0"
+    }
+}
